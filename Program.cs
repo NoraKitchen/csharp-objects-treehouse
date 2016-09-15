@@ -6,9 +6,9 @@ namespace TreehouseDefense
     {
         public static void Main()
         {
-            Map map = new Map();
-            map.Width = 8;
-            map.Height = 5;
+            Map map = new Map(8, 5);
+
+
         }
     }
 }
