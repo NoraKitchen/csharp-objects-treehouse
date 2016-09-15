@@ -1,12 +1,14 @@
 ﻿using System;
 
-namespace ConsoleApplication
+namespace TreehouseDefense
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("Hello World!");
+            Map map = new Map();
+            map.Width = 8;
+            map.Height = 5;
         }
     }
 }
